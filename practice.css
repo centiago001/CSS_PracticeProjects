@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color:black;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+
+h1{
+    color:hotpink;
+   
+}
+/*that use of css and this is the priorty*/
+#contain{
+    color:red;
+}
+
+.container{
+    background-color: aquamarine;
+
+}
+
+#first, #second{
+    color: brown;
+}
+
+/* styling for the box*/
+
+
+.box{
+    height: 500px;
+    width: 500px;
+   text-align: center;
+
+}
+
+#box1{
+    background-color: blue;
+}
+#box2{
+    background-color: rgb(13, 148, 89);
+}
+#box3{
+    background-color: rgb(180, 41, 57);
+}
+
+#logo{
+    
+    background-image: url(logo.jpeg);
+    background-size: contain;
+    background-position: top;
+}
+
+#bar{
+    background-color: rgba(3, 43, 29,0.4);
+color:rgb(226, 116, 43);
+
+}
+
+#img1{
+    background-image: url("logo.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
